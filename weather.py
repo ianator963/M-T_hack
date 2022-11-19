@@ -5,4 +5,9 @@ file = requests.get("https://weather.com/en-IN/weather/tenday/l/dc3606bad8fa1360
 
 soup = BeautifulSoup(file.content, "html.parser")
 
-print(soup.prettify())
+#content = soup.find(class_ = "card Card--card--2AzRg DailyForecast--Card--1WBkh")
+list= []
+for word in soup.find_all('p'):
+	content=word.get_text()
+
+	list.append(content)
