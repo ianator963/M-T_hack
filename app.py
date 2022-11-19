@@ -1,15 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
-def home():
-    return render_template('index.html')
+@app.route('/')
+def hello_world():
+    return 'Hello World!'
 
-@app.route("/login")
-def login():
-    return "<h1>Welcome<h1>"
-
-
-if __name__ == "__main__":
-    app.run(debug=True) # listening on port 5000
+if __name__ == '__main__': 
+   app.run(port=5000, debug=True)
