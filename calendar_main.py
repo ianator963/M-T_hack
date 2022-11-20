@@ -38,4 +38,9 @@ in this module take the calendar module and import dates into it
 import calendar
 year = 2022
 month = 11
-print(calendar.month(year, month))
+Monthly_calendar = calendar.month(year, month)
+file = open("calender-op.txt","w")
+file.write("This month's calendar \n")
+file.writelines(Monthly_calendar)
+file.close()
+   
