@@ -3,7 +3,7 @@ def scale():
 	feeling = input('How are you feeling today? (1-5)\n>>')
 	feeling = int(feeling)
 	if feeling < 1 or feeling > 5:
-		print("Invalid input, enter a value 1 - 6\n>>")
+		print("Invalid input, enter a value 1 - 5")
 		scale()
 	elif feeling == " ":
 		pass
