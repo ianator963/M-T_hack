@@ -61,6 +61,7 @@ new_item_entry.place(x=35, y=310)
 # Creating the Buttons
 add_btn = Button(root, text='Add Item', bg='Azure', width=10, font=('Helvetica', 12),
                  command=lambda: add_item(new_item_entry, tasks))
+
 add_btn.place(x=45, y=350)
 
 delete_btn = Button(root, text='Delete Item', bg='Azure', width=10, font=('Helvetica', 12),
@@ -75,6 +76,7 @@ root.mainloop()
 def add_item(entry: Entry, listbox: Listbox):
     new_task = entry.get()
     listbox.insert(END, new_task)
+ 
     with open('tasks.txt', 'a') as tasks_list_file:
         tasks_list_file.write(f'\n{new_task}')
 def delete_item(listbox: Listbox):
