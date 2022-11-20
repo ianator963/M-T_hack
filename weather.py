@@ -13,6 +13,8 @@ for word in soup.find_all('p'):
 
 	list.append(content)
 
+#f = f'Day 1: Day: {list[0]} Day 1: Night: {list[1]}\nDay 2: Day: {list[2]} Day 2: Night: {list[3]}\nDay 3: Day: {list[4]} Day 3: Night: {list[5]}\nDay 4: Day: {list[6]} Day 4: Night: {list[7]}\nDay 5: Day: {list[8]} Day 5: Night: {list[9]}\nDay 6: Day: {list[10]} Day 6: Night: {list[11]}\nDay 7: Day: {list[12]} Day 7: Night: {list[13]}\nDay 8: Day: {list[14]} Day 8: Night: {list[15]}'
+
 year, mon, mday, hour, min, sec, wday, yday, isdst = time.localtime()
 
 
