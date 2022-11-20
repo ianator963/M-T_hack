@@ -15,7 +15,7 @@ class MplCalendar(object):
         self.month = month
         self.cal = calendar.monthcalendar(year, month)
         self.events = [[[] for day in week] for week in self.cal]
-    def _mothday_to_index(self, day):
+    def _monthday_to_index(self, day):
         for week_n, week in enumerate(self.cal):
             try:
                 i = week.index(day)
