@@ -1,5 +1,4 @@
-from flask import Flask, render_template
-from tkinter import * 
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -9,4 +8,3 @@ def home():
 
 if __name__ == '__main__': 
    app.run(port=5000, debug=True)
-   root = Tk()

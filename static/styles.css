@@ -25,3 +25,12 @@ th, td {
     border:1px solid black;
     padding:13%
 }
+
+.date {
+    text-align: center
+}
+
+.time {
+    text-align: center
+}
+
