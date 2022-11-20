@@ -1,4 +1,3 @@
-
 def scale():
 	feeling = input('How are you feeling today? (1-5)\n>>')
 	feeling = int(feeling)
@@ -25,4 +24,8 @@ def scale():
 			message = "It is a great day!"
 	return f'You are feeling {feeling}... \n\t{message}'
 
-print(scale())
+f = scale()
+file = open("feelings-op.txt","w")
+file.write("Feelings \n")
+file.writelines(f)
+file.close()
