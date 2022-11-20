@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Dashboard</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
     </head>
     <body style="background-color:lightpink;">
         <h2>Insert Date</h2>
@@ -12,16 +14,31 @@
         <div style="text-align:center;">
             <table class="center">
                 <tr>
-                    <th>Calendar</th>
-                    <th>To-Do List</th>
+                    <th>
+                        <py-script>
+                            print("Calendar")
+                        </py-script>
+                    </th>
+                    <th>
+                        <py-script>
+                            print("To-Do List")
+                        </py-script>
+                    </th>
                 </tr>
             </table>
             <table class="center">
                 <tr>
-                    <td>Weather</td>
-                    <td>Mood Scale</td>
+                    <td>
+                        <py-script>
+                           
+                        </py-script>
+                    </td>
+                    <td>
+                        <py-script>
+                            print("Mood Scale")
+                        </py-script>
+                    </td>
                 </tr>
             </table>
-        </div>
     </body>
 </html>
