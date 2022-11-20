@@ -3,8 +3,8 @@ h2 {
 }
 
 table {
-    width: 75%; 
-    height: 75%;
+    width: 85%; 
+    height: 85%;
 }
 
 table.center {
@@ -16,12 +16,12 @@ th {
     width:150px;
     text-align:center;
     border:1px solid black;
-    padding:14%
+    padding:13%
 }
 
 th, td {
     width:150px;
     text-align:center;
     border:1px solid black;
-    padding:14%
+    padding:13%
 }
