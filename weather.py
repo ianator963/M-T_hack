@@ -51,3 +51,8 @@ g = (f'{day1} Day: {list[0]}\n\tNight: {list[1]}\n\n{day2} Day: {list[2]}\n\tNig
 	 Day: {list[14]}\n\tNight: {list[15]}')
 
 print(g)
+
+file = open("weather-op.txt","w")
+file.write("This week's weather \n")
+file.writelines(g)
+file.close()

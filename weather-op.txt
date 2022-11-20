@@ -1,0 +1,24 @@
+This week's weather 
+[11, 20] Day: Windy, with snow showers in the morning. High -2ºC. Winds W at 30 to 50 km/h. Chance of snow 30%.  Winds could occasionally gust over 65 km/h.
+	Night: Partly cloudy. A few flurries or snow showers possible. Low -7ºC. Winds SW at 15 to 30 km/h.
+
+[11, 21] Day: Partly cloudy. High 5ºC. Winds SW at 25 to 40 km/h.  Winds could occasionally gust over 65 km/h.
+	Night: Partly cloudy. Low -2ºC. Winds W at 15 to 30 km/h.
+
+[11, 22] Day: Partly cloudy. High 5ºC. Winds SW at 10 to 15 km/h.
+	Night: Partly cloudy. Low 0ºC. Winds SW at 10 to 15 km/h.
+
+[11, 23] Day: Partly cloudy. High 7ºC. Winds WSW at 10 to 15 km/h.
+		Night: Partly cloudy. Low 0ºC. Winds SSW and variable.
+
+[11, 24] Day: Mostly cloudy. High 10ºC. Winds SSW at 10 to 15 km/h.
+	Night: Showers late at night. Low 4ºC. Winds SSW at 10 to 15 km/h. Chance of rain 40%.
+
+[11, 25] Day: Showers. High 7ºC. Winds WSW at 15 to 30 km/h. Chance of rain 40%.
+	Night: A mix of rain and snow. Low 1ºC. Winds W at 15 to 25 km/h. Chance of precip 40%.
+
+[11, 26] Day: A mix of rain and snow showers. High 5ºC. Winds W at 15 to 30 km/h. Chance of rain 40%.
+	Night: Showers early. Low 1ºC. Winds W at 15 to 25 km/h. Chance of rain 30%.
+
+[11, 27]	 Day: Mostly cloudy. High 5ºC. Winds W at 15 to 25 km/h.
+	Night: Mostly cloudy. Low 2ºC. Winds WSW at 10 to 15 km/h.
